@@ -29,7 +29,6 @@ Demo
 
 ## Installation
     1. Run npm install to install all dependencies
-    2. Run npm run seed to add sample data
 
 ## Usage
    1. Open terminal
