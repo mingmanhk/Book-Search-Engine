@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {useQuery, useMutation} from '@apollo/react-hooks';
 import {GET_ME} from '../utils/queries';
 import {REMOVE_BOOK} from '../utils/mutations';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 import { removeBookId } from '../utils/localStorage';
-
 
 const SavedBooks = () => {
   const {loading, data} = useQuery(GET_ME);

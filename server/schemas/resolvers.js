@@ -54,7 +54,7 @@ const resolvers={
                 );
                 return updatedUser;
             }
-            throw new AuthenticationError('Couldnt not delete book!');
+            throw new AuthenticationError('Can not delete book!');
         }
     }
 };
